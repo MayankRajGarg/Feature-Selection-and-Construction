@@ -1,0 +1,10 @@
+FORWARD FEATURE SELECTION
+======================================================================
+Selected Features:
+['sex', 'bmi', 'bp', 's1', 's2', 's4', 's5']
+
+MODEL PERFORMANCE
+======================================================================
+                                      MAE          MSE       RMSE  R2 Score
+Baseline (All 10 Features)      42.794095  2900.193628  53.853446  0.452603
+Forward Selection (7 Features)  42.690719  2870.245585  53.574673  0.458255

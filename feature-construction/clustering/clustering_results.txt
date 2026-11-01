@@ -1,0 +1,31 @@
+FEATURE SELECTION USING K-MEANS CLUSTERING
+======================================================================
+
+FEATURE GROUPS
+----------------------------------------------------------------------
+Cluster 3: ['age']
+Cluster 4: ['sex']
+Cluster 1: ['bmi', 'bp', 's5', 's6']
+Cluster 0: ['s1', 's2', 's4']
+Cluster 2: ['s3']
+
+CONSTRUCTED FEATURES
+----------------------------------------------------------------------
+Original Number of Features: 10
+New Number of Features: 5
+
+Constructed Feature Names:
+['Cluster_3', 'Cluster_4', 'Cluster_1', 'Cluster_0', 'Cluster_2']
+
+MODEL PERFORMANCE COMPARISON
+======================================================================
+
+Original Features (10 Features)
+----------------------------------------------------------------------
+MSE: 2900.1936
+R2 Score: 0.4526
+
+Constructed Features (Cluster Features)
+----------------------------------------------------------------------
+MSE: 2917.3268
+R2 Score: 0.4494
