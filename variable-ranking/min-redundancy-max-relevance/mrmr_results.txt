@@ -1,0 +1,67 @@
+MRMR FEATURE RANKING
+============================================================
+
+bmi    0.189256
+s5     0.070473
+s6     0.040061
+bp     0.028853
+sex    0.022829
+age   -0.038614
+s4    -0.045091
+s3    -0.055601
+s2    -0.104557
+s1    -0.169039
+
+LINEAR REGRESSION EVALUATION
+============================================================
+
+Number of Features: 1
+Selected Features: bmi
+MSE: 4061.8259
+R2 Score: 0.2334
+------------------------------------------------------------
+Number of Features: 2
+Selected Features: bmi, s5
+MSE: 2901.8369
+R2 Score: 0.4523
+------------------------------------------------------------
+Number of Features: 3
+Selected Features: bmi, s5, s6
+MSE: 2895.5426
+R2 Score: 0.4535
+------------------------------------------------------------
+Number of Features: 4
+Selected Features: bmi, s5, s6, bp
+MSE: 2892.2512
+R2 Score: 0.4541
+------------------------------------------------------------
+Number of Features: 5
+Selected Features: bmi, s5, s6, bp, sex
+MSE: 2817.0634
+R2 Score: 0.4683
+------------------------------------------------------------
+Number of Features: 6
+Selected Features: bmi, s5, s6, bp, sex, age
+MSE: 2807.4529
+R2 Score: 0.4701
+------------------------------------------------------------
+Number of Features: 7
+Selected Features: bmi, s5, s6, bp, sex, age, s4
+MSE: 2811.3697
+R2 Score: 0.4694
+------------------------------------------------------------
+Number of Features: 8
+Selected Features: bmi, s5, s6, bp, sex, age, s4, s3
+MSE: 2813.6258
+R2 Score: 0.4689
+------------------------------------------------------------
+Number of Features: 9
+Selected Features: bmi, s5, s6, bp, sex, age, s4, s3, s2
+MSE: 2874.3576
+R2 Score: 0.4575
+------------------------------------------------------------
+Number of Features: 10
+Selected Features: bmi, s5, s6, bp, sex, age, s4, s3, s2, s1
+MSE: 2900.1936
+R2 Score: 0.4526
+------------------------------------------------------------
